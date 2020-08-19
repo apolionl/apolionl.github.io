@@ -1,0 +1,65 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+  - jekyll-latex
+  - jekyll-katex
+
+# Site settings
+title: "Luis WebSite"
+description: > # this means to ignore newlines until "email:"
+   Research interest and others
+
+email: luisvasquez@mail.mail
+#blog logo
+logo: "/assets/images/df_logo.png"
+float_logo: true # true, false (default)
+
+# blog cover
+cover: "/assets/images/galaxy-3029806_1920.jpg"
+
+name: 'Luis Vasquez'
+author: 'Luis Vasquez'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "http://myblog.***.***" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+#twitter_handle: '@dirkfabisch'
+
+#fill in disqus shortname to use disqus
+#disqus: disqus-shortname
+
+#google_analytics: UA-XXXXX-X
+
+# social icons and sharing options
+social:
+  - icon:	bitbucket
+    url:	https://bitbucket.org/apolionl
+    desc:	Fork me on Bitbucket
+    share_url: #http://twitter.com/share
+    share_title: #?text=
+    share_link: #"&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	github
+    url:	https://github.com/apolionl
+    desc:	Fork me on github
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
