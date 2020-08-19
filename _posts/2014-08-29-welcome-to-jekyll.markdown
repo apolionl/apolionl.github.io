@@ -1,51 +1,38 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2020-08-29 14:34:25
+title:  "Welcome to this blog!"
+date:   2020-06-29 14:34:25
 categories: jekyll update
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+If you are reading this post, probably, you are one of the PIs that I have chosen for undergoing my next step in *i.e*  pursuing a postdoctoral in your research group. It could be that you are one of my dear friend that is verifying how I am doing. Anyway, **welcome to my blog**.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+In this place you will find time to time tips on how to knowingly use `Latex`, `Julia`, `Gnuplot`, and many other programs for efficiently producing nice-looking plots. Other times, I will solely discuss fundamental concepts in quantum chemistry and how to properly address certain problems in specific software.
 
-Jekyll also offers powerful support for code snippets:
+Let´s begin. In [gnuplot][gnuplot], it is always worthy to carefully set your own default settings, so when you plot something you obtain what you really desire, by that I naturally imply colours and some secondary settings that might improve tremendously the presentation (visualisation) of your data. First of all, create a settings file in your `$HOME` directory, the file is called `.gnuplot`, in that file include:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight zsh %}
+defaultFont='Helvetica,12'
+set term x11 enhanced font defaultFont
+set encoding iso_8859_1
 {% endhighlight %}
 
-Or 
-Here, have some $$\pi$$.
-
-The greatest equation known to man is: 
-
-There it is -. 
+This sets the legible font and intentionally allows the effective use of special characters, subscripts, superscripts, Greek letters, and so on. Additionally, one can instantly set the colour scheme to employ in plotting. With this proper regard, I typically implement a colourblind safe set. In this example, there are six colours that I typically use, for more specific information, please visit the gnuplot official website or google colourblind safe palette.
 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-{% highlight js %}
-
-<footer class="site-footer">
- <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Subscribe!</span></a>
-  <div class="inner">a
-   <section class="copyright">All content copyright <a href="mailto:{{ site.email}}">{{ site.name }}</a> &copy; {{ site.time | date: '%Y' }} &bull; All rights reserved.</section>
-   <section class="poweredby">Made with <a href="http://jekyllrb.com"> Jekyll</a></section>
-  </div>
-</footer>
+{% highlight zsh %}
+set	style	line	1	lc	rgb	'#a6cee3'	lw	2
+set	style	line	2	lc	rgb	'#1f78b4'	lw	2
+set	style	line	3	lc	rgb	'#b2df8a'	lw	2
+set	style	line	4	lc	rgb	'#33a02c'	lw	2
+set	style	line	5	lc	rgb	'#fb9a99'	lw	2
+set	style	line	6	lc	rgb	'#e31a1c'	lw	2
+set style increment user
 {% endhighlight %}
 
+Hope this helps you. 
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-
-
-[jekyll]:      http://jekyllrb.com
+[gnuplot]:      http://www.gnuplot.info/
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-help]: https://github.com/jekyll/jekyll-help

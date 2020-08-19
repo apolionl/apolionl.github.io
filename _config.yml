@@ -5,9 +5,9 @@ gems:
   - jekyll-katex
 
 # Site settings
-title: "Luis WebSite!"
+title: "Vasquez website/blog"
 description: > # this means to ignore newlines until "email:"
-   Research interest and others
+   Research interest and linux/LaTex tips
 
 email: luisvasquez@mail.mail
 #blog logo
