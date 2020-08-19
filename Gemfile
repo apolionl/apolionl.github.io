@@ -5,4 +5,6 @@ gem 'github-pages'
 gem 'bourbon'
 gem 'jemoji'
 gem 'jekyll-latex'
-gem 'jekyll-katex'
+group :jekyll_plugins do
+  gem 'jekyll-katex'
+end
