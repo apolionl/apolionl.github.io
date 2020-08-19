@@ -25,7 +25,11 @@ Here, have some $$\pi$$.
 
 The greatest equation known to man is: 
 
-$$e^{ix} = \cos{x} + i\sin{x}$$ Think sooooooooooooooooooooo
+{% katex %}
+c = \pm\sqrt{a^2 + b^2}
+{% endkatex %}
+
+There it is -. 
 
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
