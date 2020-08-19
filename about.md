@@ -4,14 +4,17 @@ title: About
 permalink: /about/
 ---
 
-A medium inspired Jekyll blog theme. The basic idea came from the Ghost theme 
-[Readium 2.0](http://www.svenread.com/readium-ghost-theme/). I use mediator on my own blog [The Base](blog.base68.com).
+Ph.D student interested on quantum chemistry, namely method development. I am highly 
+interested on analitical methods that that provide accurate results for the right reason. 
+Lately I have been focused in photocatalysts and multireference electron correlation methods. 
 
-You can **download** the theme here:
-[https://github.com/dirkfabisch/mediator](https://github.com/dirkfabisch/mediator) 
+Linux enthusiast since 2009, and I do not see myself using something else than
+[arh linux]. My dot files are available for anyone who wish to give a try, but 
+remember [vim] is a modern pandora`s box. 
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+[vim]:         https://www.vim.org
+[kernel]:       https://www.kernel.org/
+[arh linux]:      https://www.archlinux.org/
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-help]: https://github.com/jekyll/jekyll-help
