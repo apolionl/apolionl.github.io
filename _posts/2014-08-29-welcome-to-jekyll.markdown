@@ -20,11 +20,6 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-But also latex. Try 
-{% katex display %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
-
 Or 
 Here, have some $$\pi$$.
 
