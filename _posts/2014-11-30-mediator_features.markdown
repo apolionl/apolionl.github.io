@@ -38,10 +38,3 @@ This is an [example link](http://example.com/ "With a Title").
 > - Apple
 > - Banana
 > - Plum
-
-#Combinations
->Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus
->
-> - Apple
-> - Banana
-> - Plum
