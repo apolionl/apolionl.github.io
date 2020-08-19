@@ -2,9 +2,10 @@
 gems:
   - jemoji
   - jekyll-paginate
+  - jekyll-katex
 
 # Site settings
-title: "Luis WebSite!!"
+title: "Luis WebSite!!!!"
 description: > # this means to ignore newlines until "email:"
    Research interest and others
 
