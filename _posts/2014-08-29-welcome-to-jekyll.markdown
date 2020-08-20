@@ -2,7 +2,7 @@
 layout: post
 title:  "Welcome to this blog!"
 date:   2020-06-29 14:34:25
-categories: jekyll update
+categories: featured
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---

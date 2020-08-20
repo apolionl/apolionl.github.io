@@ -2,8 +2,8 @@
 layout: post
 title:  "This blog Features. Fork it if needed"
 date:   2020-08-17 14:34:26
-categories: feature
-tags: featured
+categories: regular template
+tags: regular
 image: /assets/article_images/2014-11-30-mediator_features/night-track.JPG
 image2: /assets/article_images/2014-11-30-mediator_features/night-track-mobile.JPG
 ---
