@@ -13,7 +13,7 @@ In this place you will find time to time tips on how to knowingly use `Latex`, `
 Let´s begin. In [gnuplot][gnuplot], it is always worthy to carefully set your own default settings, so when you plot something you obtain what you really desire, by that I naturally imply colours and some secondary settings that might improve tremendously the presentation (visualisation) of your data. First of all, create a settings file in your `$HOME` directory, the file is called `.gnuplot`, in that file include:
 
 {% highlight zsh %}
-defaultFont='Helvetica,12'
+defaultFont="Helvetica,12"
 set term x11 enhanced font defaultFont
 set encoding iso_8859_1
 {% endhighlight %}
@@ -28,8 +28,12 @@ set	style	line	3	lc	rgb	'#b2df8a'	lw	2
 set	style	line	4	lc	rgb	'#33a02c'	lw	2
 set	style	line	5	lc	rgb	'#fb9a99'	lw	2
 set	style	line	6	lc	rgb	'#e31a1c'	lw	2
-set style increment user
+set     style   increment user
 {% endhighlight %}
+
+Here a silly example. 
+
+![The plot](/assets/article_images/2014-08-29-welcome-to-jekyll/pic-gnuplot.png "Sin(x)")
 
 Hope this helps you. 
 
