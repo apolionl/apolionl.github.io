@@ -14,9 +14,9 @@ I was confident that using software like maple or mathematica, one could uncoupl
 The second ODE to solve are found within [this academic paper][paper], namely the system of equations 2.1 and 2.2. At the moment of writing this "*article*", **Julia 1.5.2** the latest available version. Here I shall only highlight the most substantial steps as local variables and tuning of the possible plots depends on one taste.
 
 1. Naturally open **Julia** and properly load the needed packages. In my specific case, the bare necessary.
-```julia
+{% highlight julia %}
 using OrdinaryDiffEq, Plots
-```
+{% endhighlight %}
 
 2. Appropriately include the determined constants that you need to use. I highly recommend intentionally using `const` before the constant variants, if you are sure it will not change during the calculation. In principle this should help to speed up the complex calculation.
 {% highlight julia %}
@@ -67,4 +67,4 @@ Hope this helps you.
  
 [paper]:      http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.baztech-article-BWM6-0029-0023/c/httpwww_ptmts_org_pl2012-3-kapitaniak-in.pdf
 [1ODE]:       https://github.com/SciML/OrdinaryDiffEq.jl
-[plot]:        /assets/article_images/2020-10-10-mediator_julia_2ode/Plot-1.pdf "Plot 1.b from the original paper"
+[plot]:        /assets/article_images/2020-10-10-mediator_julia_2ode/Plot-1.png "Plot 1.b from the original paper"
