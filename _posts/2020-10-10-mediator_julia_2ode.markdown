@@ -13,25 +13,25 @@ I was confident that using software like maple or mathematica, one could uncoupl
 
 The second ODE to solve are found within [this academic paper][paper], namely the system of equations 2.1 and 2.2. At the moment of writing this "*article*", **Julia 1.5.2** the latest available version. Here I shall only highlight the most substantial steps as local variables and tuning of the possible plots depends on one taste.
 
-1. Naturally open **Julia** and properly load the needed packages. In my specific case, the bare necessary.
+- Naturally open **Julia** and properly load the needed packages. In my specific case, the bare necessary.
 {% highlight julia %}
 using OrdinaryDiffEq, Plots
 {% endhighlight %}
 
-2. Appropriately include the determined constants that you need to use. I highly recommend intentionally using `const` before the constant variants, if you are sure it will not change during the calculation. In principle this should help to speed up the complex calculation.
+- Appropriately include the determined constants that you need to use. I highly recommend intentionally using `const` before the constant variants, if you are sure it will not change during the calculation. In principle this should help to speed up the complex calculation.
 {% highlight julia %}
 const m_1 = 1.0
 const g = 9.81
 tfinal = 130.0
 {% endhighlight %}
 
-3. This is a good point to promptly write the initial conditions of the system of the equations.
+- This is a good point to promptly write the initial conditions of the system of the equations.
 {% highlight julia %}
 du0 = [0.0, 0.0, 0.0]
 u0 = [pi/2.4, pi/2.4, 0.0 ]
 {% endhighlight %}
 
-4. Put the **Julia** function with the system of equations to solve. Here `p` is ordinarily used to promptly put variables that you might need to change in the equation, for example, alter the value of an angle.
+- Put the **Julia** function with the system of equations to solve. Here `p` is ordinarily used to promptly put variables that you might need to change in the equation, for example, alter the value of an angle.
 {% highlight julia %}
 function synch_pendul(ddu, du, u, p, t)
     ddu[1] =  -(m_1*ddu[3]*l*cos(u[1]) + c_vdp*du[1]*(1-zeta*(u[1]^2)) +
@@ -43,13 +43,12 @@ function synch_pendul(ddu, du, u, p, t)
               m_2*l*(ddu[2]*cos(u[2])-(du[2]^2)*sin(u[2])))/(M+m_1+m_2)
 {% endhighlight %}
 
-5. Pass the solver. Here one indicates that the eqation to solve is a second ODE with certain initial parameters.
-5. Pass the solver. Here, one indicates that the equation to solve is a second ODE with certain initial parameters.
+- Pass the solver. Here, one indicates that the equation to solve is a second ODE with certain initial parameters.
 {% highlight julia %}
 prob = SecondOrderODEProblem(synch_pendul, du0, u0, tspan)
 {% endhighlight %}
 
-6. Solve the second ODE. In this case I am using a Runge-Kutta-Nyström integrator, but one could experience better results using other. Feel free to experiment with it.
+- Solve the second ODE. In this case I am using a Runge-Kutta-Nyström integrator, but one could experience better results using other. Feel free to experiment with it.
 {% highlight julia %}
 sol = solve(prob, DPRKN6(), reltol=1e-12, abstol=1e-12, maxiters=1e10)
 {% endhighlight %}
