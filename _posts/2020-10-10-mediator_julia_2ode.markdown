@@ -61,6 +61,7 @@ This is the result. Just one of the numerous plots that could be created.
 
 ![Time histories of almost-complete synchronization][plot]
 
+
 Hope this helps you. 
 
  
