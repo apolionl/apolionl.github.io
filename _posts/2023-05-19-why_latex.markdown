@@ -1,0 +1,58 @@
+---
+layout: post
+title: "Why ought to use LaTex instead of MS office"
+date: 2023-05-19 22:52:01
+categories: regular Latex
+tags: regular Latex
+image: /assets/article_images/2023-05-19-why_latex/night-track.JPG
+image2: /assets/article_images/2023-05-19-why_latex/night-track-mobile.JPG
+---
+
+This weekend while I was reading the highlights in the journal Nature, I found
+an interesting publication that let me thinking till this moment. The
+publication is [**Revealed: the millions of dollars in time wasted making papers fit journal guidelines**][pap1].
+
+> There’s a clamour (for reform) on Twitter. Every week there’s stuff going on about formats and submission. People do want them to be liberalized (because) it’s a waste of time.
+
+This article caught my attention because for almost 6 years I have been using
+**Latex**. My change from standard MS Office to **Latex** originates from the
+extensive editing I had to perform to the references. I began to hate the long
+editing of paper of reports, thus I change that could save me time, which
+**Latex** does.
+
+![Manuscripts most common requirements on 320 journals.][pic1]
+
+> I didn’t care what format they were in, I just cared about the science in the paper. (Editor)
+
+Back to the article. Students, teachers, and everyone involved in the craft of
+scientific publications suffer from adjusting the manuscript to the journal format after a first editorial desk rejection.
+In this publication authors estimated the time and costs of adjusting manuscripts
+to journals formatting style in the resubmission. Reader must be aware that most journals have specific
+formats for manuscript submissions. Although, is practically standard to have
+an introduction, methods, results, and conclusions framework, some journals like
+Nature or Science have a different standard. In fact, this is [one of the main
+conclusions of the paper][pap2], namely journals have a huge diversity in
+submission requirements. From the authors' estimation, just in the [European Union
+and the USA 230 million USD were lost in 2021][pap2].
+
+![2000 - 2030 expenses on manuscript formatting.][pic2]
+
+The study estimates that if the trend continues for the rest of the decade,
+in the next 8 years (the study finished in 2022) the expenses in manuscript
+reformatting after a first editorial desk rejection sum 2.5 billion USD.
+When I see that amount, it is impossible to avoid thinking in those research
+project that could be founded.
+
+I invite the reader to check the paper for details. One of the major
+conclusion and solutions to the reformatting issue is to have a unique manuscript
+submission style, thus independent where the draft is submitted, one can use
+a standard style. Meanwhile, I believe that the only solution that partially
+solves the issue is to use **Latex**. Most journals have **Latex** templates. By
+using those one can save time -a lot of time.
+
+> Just send (the article) in to us, and we’ll take a look at it. And if we like it, we’ll send it out for peer review. And if it meets peer review, we’ll send it back to you. And **THEN** you can put it into our journal’s format. I think that’s respectful of the authors’ time and effort.
+
+[pap1]: https://www.nature.com/articles/d41586-023-01846-9 "Paper at Nature"
+[pap2]: https://doi.org/10.1186%2Fs12916-023-02882-y "Original paper full access"
+[pic1]: /assets/article_images/2023-05-19-why_latex/picture1.png "Diversity in submission requirements based on the review of leading biomedical journals."
+[pic2]: /assets/article_images/2023-05-19-why_latex/picture2.png "The cost of reformatting manuscripts after editorial rejections."
