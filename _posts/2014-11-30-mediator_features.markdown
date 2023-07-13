@@ -51,7 +51,7 @@ This is an image ![Image description here.][image]
 
 Resize the image ![Image description here.][image]{:height="360px" ; style="display:block; margin-left:auto; margin-right:auto"}
 
-Code for resizing the image:
+Code for resizing the previous image:
 
 ```markdown
 Resize the image ![Image description here.][https://url_image]{:height="360px" width="360px"}
