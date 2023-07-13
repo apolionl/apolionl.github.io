@@ -47,7 +47,7 @@ This is an [example link](http://example.com/ "With a Title").
 
 This is an image ![Image description here.][image]
 
-Resize the image ![Image description here.][image]{width=50%}
+Resize the image ![Image description here.][image]{:height="360px"}
 
 Code fro resizing the image:
 
