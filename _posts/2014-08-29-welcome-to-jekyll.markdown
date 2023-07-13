@@ -1,12 +1,13 @@
 ---
 layout: post
-title:  "Welcome to this blog!"
+title:  "Welcome to my blog!"
 date:   2020-06-29 14:34:25
 categories: featured
 tags: featured
 image: /assets/article_images/2014-08-29-welcome-to-jekyll/desktop.JPG
 ---
-If you are reading this post, probably, you are one of the PIs that I have chosen for undergoing my next step in *i.e*  pursuing a postdoctoral in your research group. It could be that you are one of my dear friend that is verifying how I am doing. Anyway, **welcome to my blog**.
+
+If you are reading this post, probably, you are the PI that I have chosen for undergoing my next step in *i.e*  pursuing a postdoctoral in your research group. It could be that you are one of my dear friend that is verifying how I am doing. Anyway, _**welcome**_.
 
 In this place you will find time to time tips on how to knowingly use `Latex`, `Julia`, `Gnuplot`, and many other programs for efficiently producing nice-looking plots. Other times, I will solely discuss fundamental concepts in quantum chemistry and how to properly address certain problems in specific software.
 
@@ -38,5 +39,3 @@ Here a silly example.
 Hope this helps you. 
 
 [gnuplot]:      http://www.gnuplot.info/
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help

@@ -4,8 +4,8 @@ title: "Why ought to use LaTex instead of MS office"
 date: 2023-05-19 22:52:01
 categories: regular Latex
 tags: regular Latex
-image: /assets/article_images/2023-05-19-why_latex/night-track.JPG
-image2: /assets/article_images/2023-05-19-why_latex/night-track-mobile.JPG
+image: /assets/article_images/2022-08-15-julia_environment/night-track.JPG
+image2: /assets/article_images/2022-08-15-julia_environment/night-track-mobile.JPG
 ---
 
 This weekend while I was reading the highlights in the journal Nature, I found

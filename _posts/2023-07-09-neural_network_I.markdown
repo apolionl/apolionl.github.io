@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Building a Neural Network from Scratch I"
+title: "Building a Neural Network from Scratch in Julia (I)"
 date: 2023-07-09 10:52:01
 categories: regular AI
 tags: regular AI Julia
-image: /assets/article_images/2023-05-19-why_latex/night-track.JPG
-image2: /assets/article_images/2023-05-19-why_latex/night-track-mobile.JPG
+image: /assets/article_images/2022-08-15-julia_environment/night-track.JPG
+image2: /assets/article_images/2022-08-15-julia_environment/night-track-mobile.JPG
 ---
 
 In the last 5 years or so, the scientist in the theoretical chemistry community have been working intensively at the boom of artificial intelligence (AI). I could nightlight scientific publications, but I guess at this point is kind of useless. There are publications in many areas like material science, and DFT, therefore, my selection list would be subjective. Owing to my personal interest and field -I do not directly work on AI, but I work on thing for which AI could be applied- time to time I cross with papers that seem interesting. Interesting, sometimes I see that authors seem to **apply** AI without doing a compressive analysis of the results. With this in mind, I decided to explain my basic knowledge on machine learning, let's say from scratch. In the following two posts I will code in _**Julia**_ a **Neural network (NN)** from scratch.
@@ -22,6 +22,7 @@ The objective of the post is to show how relatively easy is to construct a NN, w
 <!--toc:end-->
 
 ## BASIC KNOWLEDGE (_**FREE**_)
+--------
 
 Because I do not work in AI, and I want to avoid compromises in this post I will list bellow some nice sources in NN. Fell free to consult them.
 
@@ -45,7 +46,7 @@ As one can see in the above picture the kind of calculations performed in a neur
 
 For the single neuron we have: 3 inputs (X1, X2, X3), 3 weights (W1, W2, W3) and one bias. The code in _**Julia**_ looks like:
 
-```JULIA
+```julia single neuron
 # Inputs
 inp = [1, 2, 3]
 
@@ -63,7 +64,7 @@ println(" The result is $output ")
 The results is 4.7
 ```
 
-Easy right? But what are those weights and bias?. Well, from [**the book ""Understanding deep learning**][pap2]:
+Easy right? But what are those weights and bias?. Well, from [**the book Understanding deep learning**][pap2]:
 
 > If every element in one layer connects to every element in the next, the network is fully connected. These connections represent slope parameters in the underlying equations and are referred to as network weights. The offset parameters are called biases.
 
