@@ -33,7 +33,7 @@ Because I do not work in AI, and I want to avoid compromises in this post I will
 5. [**Cheat sheet on machine learning algorithms**][pap5].
 
 ## SINGLE NEURAL NETWORK
-========================
+========
 
 ![Neural Network with 5 neurons in the hidden layer.][pic1]
 
@@ -77,7 +77,7 @@ In short, **weights and bias are parameters that must be learned**. In AI one do
 
 Let's expand the summation calculation from a single neuron to a layer, as in the picture above. For this example there are 4 input neurons **(X1, X2, X3, X4)** in the input layer and 3 neurons **(h, h2, h3)** in the hidden layer. Remember, each neuron in the hidden layer has a bias. Using the previous code to this example one has:
 
-```JULIA
+```julia
 # input layer X1, X2, X3, X4
 inp = [1, 2, 3, 2.5]
 
@@ -105,7 +105,7 @@ The results is 4.8 1.21 2.385
 
 In real world examples the programmer does not need to write such a long and tedious script. Instead, often basic linear algebra will make the trick, namely matrix multiplication (the dot product). Matrix multiplication is outside the scope of this blog, nevertheless, I will comment that the most important thing is to be aware of the **shape** of your matrix; an indispensable requisite in matrix multiplication (you will see soon). Consequently, passing `wei1-3` and `bia1-3` to matrixes, the codes become:
 
-```JULIA
+```julia
 # input layer X1, X2, X3, X4
 inp = [1, 2, 3, 2.5]
 
@@ -134,7 +134,7 @@ Up to this point we see that computations are simpler, but this example is for a
 - **Julia** benefits from using strong typing, _I am use code like that, therefore most of the code is strongly typed_.
 - The bias is added to each of the **rows** from the matrix product, for this reason look that in the forward pass I transpose the bias `Vector{Float64}`. To transpose a `Vector` in **Julia** use `'` at the end of the variable, for instance `MyBias'`.
 
-```JULIA
+```julia
 using Random
 Random.seed!(0)
 
