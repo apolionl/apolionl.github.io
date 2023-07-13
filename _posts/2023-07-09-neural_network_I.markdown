@@ -33,6 +33,7 @@ Because I do not work in AI, and I want to avoid compromises in this post I will
 5. [**Cheat sheet on machine learning algorithms**][pap5].
 
 ## SINGLE NEURAL NETWORK
+========================
 
 ![Neural Network with 5 neurons in the hidden layer.][pic1]
 
@@ -46,7 +47,7 @@ As one can see in the above picture the kind of calculations performed in a neur
 
 For the single neuron we have: 3 inputs (X1, X2, X3), 3 weights (W1, W2, W3) and one bias. The code in _**Julia**_ looks like:
 
-```julia single neuron
+```julia
 # Inputs
 inp = [1, 2, 3]
 
