@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building a Neural Network from Scratch in Julia (I)"
+title: "A Neural Network from Scratch in Julia (I)"
 date: 2023-07-09 10:52:01
 categories: regular AI
 tags: regular AI Julia
@@ -22,7 +22,6 @@ The objective of the post is to show how relatively easy is to construct a NN, w
 <!--toc:end-->
 
 ## BASIC KNOWLEDGE (_**FREE**_)
---------
 
 Because I do not work in AI, and I want to avoid compromises in this post I will list bellow some nice sources in NN. Fell free to consult them.
 
@@ -33,7 +32,6 @@ Because I do not work in AI, and I want to avoid compromises in this post I will
 5. [**Cheat sheet on machine learning algorithms**][pap5].
 
 ## SINGLE NEURAL NETWORK
-========
 
 ![Neural Network with 5 neurons in the hidden layer.][pic1]
 
