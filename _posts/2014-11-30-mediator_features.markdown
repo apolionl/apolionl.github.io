@@ -49,7 +49,7 @@ This is an [example link](http://example.com/ "With a Title").
 
 This is an image ![Image description here.][image]
 
-Resize the image ![Image description here.][image]{:height="360px" .center-image}
+Resize the image ![Image description here.][image]{:height="360px" ; style="display:block; margin-left:auto; margin-right:auto"}
 
 Code fro resizing the image:
 
