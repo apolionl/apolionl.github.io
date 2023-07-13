@@ -33,7 +33,7 @@ Because I do not work in AI, and I want to avoid compromises in this post I will
 
 ## SINGLE NEURAL NETWORK
 
-![Neural Network with 5 neurons in the hidden layer.][pic1]{:width="379px" height="512px" ; .center-image}
+![Neural Network with 5 neurons in the hidden layer.][pic1]{:width="379px" height="512px"}
 
 Neural network calculations are intimidating in some occasions owing to the complexity of the hidden layer. For simplicity, I first focus on a single neuron. A standard single neural network consists of: input, weights and bias, net sum, and activation function.
 
