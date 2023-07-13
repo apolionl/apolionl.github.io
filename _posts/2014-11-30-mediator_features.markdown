@@ -43,6 +43,13 @@ This is an [example link](http://example.com/ "With a Title").
 #Images
 This is an image ![Image description here.][image]
 
+Resize the image ![Image description here.][image]{width=50%}
+
+Code fro resizing the image:
+```markdown
+Resize the image ![Image description here.][https://url_image]{:height="360px" width="360px"}
+
+```
 
 [syntax]:     https://daringfireball.net/projects/markdown/syntax
 [image]:         /assets/article_images/2014-11-30-mediator_features/night-track.JPG  "The image with reference"
