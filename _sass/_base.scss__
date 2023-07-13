@@ -34,7 +34,17 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+// Image centering
 
+.text-align-center {
+  text-align: center;
+}
+
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /**
  * Images
