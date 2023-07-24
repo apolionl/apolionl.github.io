@@ -53,10 +53,6 @@ In the broad sense, an **activation function** is a function that changes the su
 
 $$ ReLu \left(𝑥 \right) = Max \left( \left( 0, x \right) \right) xx $$
 
-```latex
-ReLu \left(𝑥 \right) = Max \left( \left( 0, x \right) \right)
-```
-
 Julia's code of ReLu is fairly simple:
 
 ```julia
