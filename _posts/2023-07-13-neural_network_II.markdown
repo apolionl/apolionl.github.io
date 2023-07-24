@@ -52,7 +52,7 @@ In the broad sense, an **activation function** is a function that changes the su
 **ReLu** one of the most used activation functions owing to its simplicity and cheap computational cost. In sort, any input _less than 0_ becomes 0, otherwise the values stay. In a more mathematical way that is:
 
 $$
-𝑅𝑒𝑙𝑢\left(𝑥\right) = 𝑀𝑎𝑥 \left( \left(0, 𝑥 \right) \right)
+ReLu \left(𝑥 \right) = Max \left( \left( 0, x \right) \right)
 $$
 
 Julia's code of ReLu is fairly simple:
