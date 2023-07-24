@@ -161,6 +161,7 @@ function forward(Layer::Layer_Dense, input::Array{Float64,2})
     return input * Layer.weights .+ Layer.biases'
 end
 
+## ACTUAL CALCULATION ##
 layer1 = Layer_Dense(4, 5)
 layer2 = Layer_Dense(5, 2)
 
