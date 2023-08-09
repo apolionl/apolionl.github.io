@@ -9,10 +9,9 @@ image2: /assets/article_images/2022-08-15-julia_environment/night-track-mobile.J
 ---
 
 
-This is a mini blog for a fast setup of the **LTeX Language Server**, a LSP language server for LanguageTool with support for LaTeX, Markdown and others. Moreover, I will set up the **LTeX_extra** plugin for NVIM, which provides additional functions for LTeX file handling (off-spec lsp).
+This is a mini blog for a fast setup of the **LTeX Language Server**, a LSP language server for LanguageTool with support for LaTeX, Markdown and others. Moreover, I will set up the **LTeX extra** plugin for NVIM, which provides additional functions for LTeX file handling (off-spec lsp).
 
 <!--toc:start-->
-
 - [NVIM Plugins](#nvim-plugins)
   - [Mason](#mason)
   - [LTeX-extra](#ltex-extra)
