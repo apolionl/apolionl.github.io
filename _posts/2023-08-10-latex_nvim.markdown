@@ -43,7 +43,7 @@ To install LTeX one needs to open `mason` in NVIM and install `ltex-ls`. For LTe
 
 ### LTeX setup
 
-Technically, all is ready, what is left is to config `ltex-ls`/`ltex_extra`.
+Technically, all is ready, what is left is to config `ltex-ls`-`ltex_extra`.
 
 ```lua
 -- https://github.com/neovim/nvim-lspconfig/blob/master/lua/lspconfig/server_configurations/ltex.lua
