@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Julia:Default parameters in structs"
+title: "Julia: Default parameters in structs"
 date: 2023-09-28 22:04:00
 categories: regular Julia
 tags: regular Julia
